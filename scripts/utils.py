@@ -16,7 +16,7 @@ import sys
 
 
 
-class WorldDataAnalysis:
+class DataAnalyizer:
     def __init__(self):
         # Updated indicators dictionary with new indicators
         self.indicators = {
