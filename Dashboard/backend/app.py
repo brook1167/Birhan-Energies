@@ -3,13 +3,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import pandas as pd
-from models import (
-    load_price_data,
-    calculate_price_trends, 
-    calculate_yearly_average_price, 
-    calculate_analysis_metrics,calculate_price_distribution, 
-    calculate_event_impact, get_prices_around_event
-)
+from models import *
 
 app = Flask(__name__)
 CORS(app)
